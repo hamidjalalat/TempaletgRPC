@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{653C80E7-3208-4131-AA09-2A9345C6E695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcService1", "GrpcService1\GrpcService1.csproj", "{CF0E0879-DADB-4F28-9D76-FA6CAEB9C565}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{31298A68-A07E-4DBC-B9E3-D420F2CCAC8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{653C80E7-3208-4131-AA09-2A9345C6E695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{653C80E7-3208-4131-AA09-2A9345C6E695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{653C80E7-3208-4131-AA09-2A9345C6E695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{653C80E7-3208-4131-AA09-2A9345C6E695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0E0879-DADB-4F28-9D76-FA6CAEB9C565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0E0879-DADB-4F28-9D76-FA6CAEB9C565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0E0879-DADB-4F28-9D76-FA6CAEB9C565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0E0879-DADB-4F28-9D76-FA6CAEB9C565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31298A68-A07E-4DBC-B9E3-D420F2CCAC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31298A68-A07E-4DBC-B9E3-D420F2CCAC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31298A68-A07E-4DBC-B9E3-D420F2CCAC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31298A68-A07E-4DBC-B9E3-D420F2CCAC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {652E32E9-0129-4779-B1C3-6C03A6E0E502}
+	EndGlobalSection
+EndGlobal
